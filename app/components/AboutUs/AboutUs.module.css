@@ -1,0 +1,45 @@
+.title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Ajuste conforme necessário */
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .title {
+      font-size: 2.5rem;
+    }
+  
+    .description {
+      font-size: 1.25rem;
+    }
+  
+    .slide {
+      height: 400px; /* Ajuste conforme necessário */
+    }
+  }
+  
